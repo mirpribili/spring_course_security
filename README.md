@@ -9,7 +9,7 @@
 - create Security Initializer
 - add configuration for Spring Security
 # Аунтификация - complete
-
+# Авторизация - complete
 
 
 
