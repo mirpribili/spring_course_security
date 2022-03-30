@@ -23,7 +23,11 @@
     show databases;
     use my_db_spring_mvc_aop;
     show tables;
-    SELECT * FROM my_db_spring_mvc_aop.employees;
+    SELECT * FROM my_db.users;
+
+    updates my_db.users set enabled = 0 where username = 'zaur';
+    // https://www.browserling.com/tools/bcrypt
+    UPDATE my_db.users SET password = '{bcrypt}$2a$10$/K7kF77gKap3oK5GI5xe4.edb35OeO41cAsW8pG21GRnhJzmeiE2y' WHERE username = 'zaur';
 
     USE my_db;
 
